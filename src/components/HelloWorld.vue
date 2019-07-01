@@ -1,7 +1,7 @@
 <template lang="pug">
   div.hello-world
     div.btn-group 
-      p 按钮test
+      p 按钮test1
       my-button(type='primary' size='small' disabled=false)  primary
       my-button(size='small' disabled=false @click='openHandler') 弹出框
       my-button(type='success' size='small' disabled=false)  success
